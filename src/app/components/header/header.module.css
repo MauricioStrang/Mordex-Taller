@@ -1,3 +1,30 @@
 .container{
+    align-items: center;
+    display: flex;
+    height: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: purple;
+}
+
+.brgMenuContainer{
+    display: flex;
+}
+
+.brgMenu{
+    display: flex;
+    
+}
+
+.logoContainer{
+    display: flex;
+    font-size: 9px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.searchContainer{
     display: flex;
 }
