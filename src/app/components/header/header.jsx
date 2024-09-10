@@ -7,7 +7,11 @@ export default function Header() {
     <div className={styles.container}>
 
         <div className={styles.brgMenuContainer}>
-            <Image className={styles.brgMenu} src={'/menu.png'} width={25} height={20} alt="menu button"/>
+            <Image 
+                className={styles.brgMenu} 
+                src={'/menu.png'} alt="menu button"
+                width={30} height={30} 
+            />
         </div>
 
         <div className={styles.logoContainer}>
@@ -25,7 +29,7 @@ export default function Header() {
                 </select>
             </div>
 
-            <div className={styles.searchContainer}>
+            <div className={styles.searchBarContainer}>
                 <div className={styles.searchBar}>
                     <p>¿Qué estás buscando?</p>
                 </div>
@@ -35,21 +39,29 @@ export default function Header() {
             <div className={styles.searchBtnContainer}>
                 <Image
                     className={styles.searchBtn} 
-                    src={'search.png'}
-                    width={25} height={25} alt="search button"
+                    src={'/search.png'} alt="search button"
+                    width={25} height={25} 
                 />
             </div>
         </div>
         
 
 
-        <div className={styles.userLogo}>
-            <button>Login logo</button>
+        <div className={styles.userContainer}>
+            <Image 
+                className={styles.userBtn}
+                src={'/user.png'} alt="user button"
+                width={30} height={30} 
+            />
             <p>Login</p>
         </div>
 
-        <div className={styles.cartLogo}>
-            <button>Cart logo</button>
+        <div className={styles.cartContainer}>
+            <Image
+                className={styles.cartBtn}
+                src={'/cart.png'} alt="cart button"
+                width={30} height={30} 
+            />
         </div>
     </div>
   );

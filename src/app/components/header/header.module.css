@@ -4,7 +4,7 @@
     height: 70px;
     padding-left: 10px;
     padding-top: 10px;
-    background-color: purple;
+    background-color: lightblue;
 }
 
 .brgMenuContainer{
@@ -27,4 +27,14 @@
 
 .searchContainer{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-color: gray;
+}
+
+.userContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
