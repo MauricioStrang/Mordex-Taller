@@ -32,8 +32,12 @@ export default function Header() {
             </div>
 
 
-            <div className={styles.searchLogo}>
-                <button>Search button</button>
+            <div className={styles.searchBtnContainer}>
+                <Image
+                    className={styles.searchBtn} 
+                    src={'search.png'}
+                    width={25} height={25} alt="search button"
+                />
             </div>
         </div>
         
