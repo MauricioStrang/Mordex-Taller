@@ -15,7 +15,7 @@ export default function Header() {
         </div>
 
         <div className={styles.logoContainer}>
-            <h1 className={styles.logo}> Mordex Taller </h1>
+            <h1 className={styles.logo}> Mordex Taller in working process </h1>
         </div>
 
 
