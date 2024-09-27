@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./header.module.css" 
 
-export default function Header() {
+const Header =()=> {
   return (
 
     <div className={styles.container}>
@@ -67,3 +67,4 @@ export default function Header() {
   );
 }
 
+export default Header;
