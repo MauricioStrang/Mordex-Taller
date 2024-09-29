@@ -4,7 +4,7 @@ const AboutPage =()=> {
   return (
 
     <div className={styles.container}>
-        <h1>ABOUT PAGE</h1>
+        <h1>ABOUT PAGE no timexd</h1>
     </div>
   );
 }
