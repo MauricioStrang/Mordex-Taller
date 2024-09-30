@@ -1,10 +1,10 @@
 import styles from "./banner.module.css" 
 
-const Banner =()=> {
+const Banner = ({ isVisible }) => {
   return (
 
-    <div className={styles.container}>
-        <p className={styles.bannerText}>DIY Electronics Repair Resource</p>
+    <div className={`container ${!isVisible ? "hidden-banner" : ""}`}>
+      <h1 className={styles.bannerText}>DIY Electronics Repair Resource</h1>
     </div>
   );
 }

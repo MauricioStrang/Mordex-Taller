@@ -4,10 +4,14 @@
     align-items: center;
     background-color: #e8e8e8;
     height: 45px;
+    transition: transform 0.3s ease;
 }
-
 
 .bannerText{
     font-weight: bold;
     font-size: 15px;
 }
+
+.hidden-banner {
+    transform: translateY(-100%); /* Move banner out of view */
+  }
