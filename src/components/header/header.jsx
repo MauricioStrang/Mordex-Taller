@@ -15,18 +15,19 @@ const Header =()=> {
         </div>
 
         <div className={styles.logoContainer}>
-            <h1 className={styles.logo}> Mordex Taller in working process </h1>
+            <h1 className={styles.logo}> Mordex Taller </h1>
         </div>
 
 
         <div className={styles.searchContainer}>
             <div className={styles.dropdown}>
-                <select name="Categorías" id="cars">
+                <select class="select-button" name="Categorías" id="cars">
                     <option value="volvo">Todas las Categorías</option>
                     <option value="volvo">Remeras</option>
                     <option value="saab">Herramientas</option>
                     <option value="opel">Sticker</option>
                 </select>
+                <label class="select-label">All Categories</label>
             </div>
 
             <div className={styles.searchBarContainer}>

@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import ScrollManager from "@/components/scrollManager/scrollManager";
+import Header from "@/components/header/header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,7 +23,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-      <ScrollManager>{children}</ScrollManager>
+        <Header />
+        {children}
       </body>
     </html>
   );
