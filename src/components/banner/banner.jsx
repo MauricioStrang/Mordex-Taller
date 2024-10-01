@@ -4,7 +4,7 @@ const Banner = ({ isVisible }) => {
   return (
 
     <div className={`container ${!isVisible ? "hidden-banner" : ""}`}>
-      <h1 className={styles.bannerText}>DIY Electronics Repair Resource</h1>
+      <h1 className={styles.bannerText}>DIY Electronics Repair Resource is currently not working</h1>
     </div>
   );
 }
