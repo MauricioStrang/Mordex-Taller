@@ -20,14 +20,14 @@ const Header =()=> {
 
 
         <div className={styles.searchContainer}>
-            <div className={styles.dropdown}>
-                <select class="select-button" name="Categorías" id="cars">
+            <div className={styles.dropdownContainer}>
+                <select className={styles.selectButton} name="Categorías" id="cars">
                     <option value="volvo">Todas las Categorías</option>
                     <option value="volvo">Remeras</option>
                     <option value="saab">Herramientas</option>
                     <option value="opel">Sticker</option>
                 </select>
-                <label className={styles.selectLabel}>All Categories</label>
+                <label className={styles.selectLabel}>Todas las categorías</label>
             </div>
 
             <div className={styles.searchBarContainer}>
