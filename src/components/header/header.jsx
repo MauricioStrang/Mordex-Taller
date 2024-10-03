@@ -27,7 +27,7 @@ const Header =()=> {
                     <option value="saab">Herramientas</option>
                     <option value="opel">Sticker</option>
                 </select>
-                <label class="select-label">All Categories</label>
+                <label className={styles.selectLabel}>All Categories</label>
             </div>
 
             <div className={styles.searchBarContainer}>

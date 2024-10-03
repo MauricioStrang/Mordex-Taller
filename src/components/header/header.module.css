@@ -56,6 +56,11 @@
     opacity: 0;
 }
 
+.selectLabel{
+    background-color: red;
+    z-index: 850
+}
+
 .userContainer{
     display: flex;
     justify-content: center;
