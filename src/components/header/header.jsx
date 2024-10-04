@@ -22,12 +22,21 @@ const Header =()=> {
         <div className={styles.searchContainer}>
             <div className={styles.dropdownContainer}>
                 <select className={styles.selectButton} name="Categorías" id="cars">
-                    <option value="volvo">Todas las Categorías</option>
+                    <option value="volvo">Categorías</option>
                     <option value="volvo">Remeras</option>
                     <option value="saab">Herramientas</option>
                     <option value="opel">Sticker</option>
                 </select>
-                <label className={styles.selectLabel}>Todas las categorías</label>
+                <label className={styles.selectLabel}>Categorías</label>
+
+                <div className={styles.dropdownIconContainer}>
+                    <Image 
+                        className={styles.dropdownIcon}
+                        src={'/dropdown.png'} alt= "dropdown icon"
+                        width={10} height={10}
+                    />
+                </div>
+                
             </div>
 
             <div className={styles.searchBarContainer}>

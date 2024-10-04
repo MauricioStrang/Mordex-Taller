@@ -30,35 +30,41 @@
 }
 
 
-.searchContainer{
+.searchContainer {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     height: 50px;
     width: 1500px;
     display: flex;
     align-items: center;
-    border-radius: 3%;
+    border-radius: 5px; /* Set a smaller, consistent value */
     background-color: azure;
-    border-color: gray;
+    border: 2px solid #dfdfdf; /* Keep the dark gray border */
 }
 
 .dropdownContainer{
     height: 100%;
     width: 200px;
     position: relative;
+    border-color: gray;
 }
 
 .selectButton{
     position: absolute;
     display: flex;
-    width:100%;
+    width:140px;
     height: 100%;
     opacity: 0;
 }
 
 .selectLabel{
+    width:140px;
+    color: rgb(114, 114, 114);
+    border: 2px solid #dfdfdf;;
+    border-radius: 3px;
     position: absolute;
     height: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
     padding-top: 0;
     padding-bottom: 0;
@@ -69,6 +75,16 @@
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     box-shadow: none;
+}
+
+.dropdownIconContainer{
+    position: absolute;
+    display: flex;
+    z-index: 999;
+    width: 140px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .userContainer{
