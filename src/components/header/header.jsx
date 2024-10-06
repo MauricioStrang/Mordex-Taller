@@ -43,7 +43,7 @@ const Header =()=> {
                 <input 
                 className= {styles.searchInput} 
                 type="text" 
-                placeholder = "What are you looking for?"
+                placeholder = "¿Qué estás buscando?"
                 />
             </div>
 
@@ -51,7 +51,7 @@ const Header =()=> {
             <div className={styles.searchBtnContainer}>
                 <Image
                     className={styles.searchBtn} 
-                    src={'/search.png'} alt="search button"
+                    src={'/search1.png'} alt="search button"
                     width={25} height={25} 
                 />
             </div>
