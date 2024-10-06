@@ -51,13 +51,13 @@
 .selectButton{
     position: absolute;
     display: flex;
-    width:140px;
+    width:100%;
     height: 100%;
     opacity: 0;
 }
 
 .selectLabel{
-    width:140px;
+    width:100%;
     color: rgb(114, 114, 114);
     border: 2px solid #dfdfdf;;
     border-radius: 3px;
@@ -81,7 +81,7 @@
     position: absolute;
     display: flex;
     z-index: 999;
-    width: 140px;
+    width:100%;
     height: 100%;
     justify-content: flex-end;
     align-items: center;
@@ -92,3 +92,25 @@
     justify-content: center;
     align-items: center;
 }
+
+.searchInputContainer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(216, 182, 216);
+}
+
+
+.searchInput{
+    padding-left: 10px;
+    height: 100%;
+    width: 100%;
+    color: black;
+    border: none; /* Remove default border */
+    outline: none; /* Remove black focus outline */
+    font-size: 15px;
+}
+
+.searchInput::placeholder {
+    color: gray; /* Placeholder text color */
+    opacity: 1;  /* Ensure it's fully visible in all browsers */
+  }

@@ -39,10 +39,12 @@ const Header =()=> {
                 
             </div>
 
-            <div className={styles.searchBarContainer}>
-                <div className={styles.searchBar}>
-                    <p>¿Qué estás buscando?</p>
-                </div>
+            <div className={styles.searchInputContainer}>
+                <input 
+                className= {styles.searchInput} 
+                type="text" 
+                placeholder = "What are you looking for?"
+                />
             </div>
 
 
