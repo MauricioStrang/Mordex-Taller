@@ -9,13 +9,13 @@ const Header =()=> {
         <div className={styles.brgMenuContainer}>
             <Image 
                 className={styles.brgMenu} 
-                src={'/menu.png'} alt="menu button"
-                width={30} height={30} 
+                src={'/menu2.png'} alt="menu button"
+                width={34} height={32} 
             />
         </div>
 
         <div className={styles.logoContainer}>
-            <h1 className={styles.logo}> Mordex Taller </h1>
+            <h1 className={styles.logo}> TronicsFix LLC </h1>
         </div>
 
 
