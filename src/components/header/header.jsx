@@ -15,7 +15,7 @@ const Header =()=> {
         </div>
 
         <div className={styles.logoContainer}>
-            <h1 className={styles.logo}> TronicsFix LLC </h1>
+            <h1 className={styles.logo}> Mordex Fix </h1>
         </div>
 
 
