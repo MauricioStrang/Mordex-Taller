@@ -75,6 +75,11 @@ const Header =()=> {
                 width={30} height={30} 
             />
         </div>
+
+
+        <div className={styles.subHeader}>
+            <h1>Sub header here</h1>
+        </div>
     </div>
   );
 }
