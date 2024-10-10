@@ -12,19 +12,25 @@
 }
 
 .subHeader {
-    display: none; /* Initially hidden */
+    max-height: 0; /* Start with a collapsed height */
+    overflow: hidden; /* Hide any content when collapsed */
     position: absolute;
     width: 100vw;
-    height: 60px;
-    top: 100%; /* Places it right below the nav item */
+    top: 100%;
     left: 0;
     background-color: white;
-    padding: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0 10px; /* Padding for the left and right, but not top/bottom initially */
+    transition: max-height 0.15s ease-in-out, padding 0.15s ease-in-out;
+    transition-delay: 0s; /* No delay on hover */
 }
 
 .container:hover .subHeader {
-    display: block; /* Show dropdown on hover */
+    max-height: 500px; /* Expand the height smoothly */
+    padding: 10px; /* Add padding back on hover */
+}
+
+.container:not(:hover) .subHeader {
+    transition-delay: 2s; /* 2-second delay before collapsing */
 }
 
 .brgMenuContainer{
