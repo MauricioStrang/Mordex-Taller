@@ -86,7 +86,13 @@ const Header =()=> {
                     <option value="saab">Otros Electrónicos</option>
                 </select>
                 <label className={styles.navMenuLabel}>Tienda</label>
-
+                <div className={styles.subDropdownIconContainer}>
+                    <Image 
+                        className={styles.dropdownIcon}
+                        src={'/dropdownsub.png'} alt= "dropdown icon"
+                        width={20} height={20}
+                    />
+                </div>
             </div>
 
             <div className= {styles.navMenu}> 
@@ -97,9 +103,23 @@ const Header =()=> {
                     <option value="saab">TwitchEN</option>
                 </select>
                 <label className={styles.navMenuLabel}>Redes</label>
+                <div className={styles.subDropdownIconContainer}>
+                    <Image 
+                        className={styles.dropdownIcon}
+                        src={'/dropdownsub.png'} alt= "dropdown icon"
+                        width={20} height={20}
+                    />
+                </div>
             </div>
 
             <div className= {styles.navMenu}>
+                <div className={styles.subDropdownIconContainer}>
+                    <Image 
+                        className={styles.dropdownIcon}
+                        src={'/dropdownsub.png'} alt= "dropdown icon"
+                        width={20} height={20}
+                    />
+                </div>
                 <select className={styles.navMenuBtn} name="Sobre-mi" id="cars">
                     <option value="volvo">FAQ</option>
                     <option value="volvo">Contactame</option>
