@@ -11,28 +11,6 @@
     z-index: 1000;
 }
 
-.subHeader {
-    max-height: 0; /* Start with a collapsed height */
-    overflow: hidden; /* Hide any content when collapsed */
-    position: absolute;
-    width: 100vw;
-    top: 100%;
-    left: 0;
-    background-color: white;
-    padding: 0 10px; /* Padding for the left and right, but not top/bottom initially */
-    transition: max-height 0.15s ease-in-out, padding 0.15s ease-in-out;
-    transition-delay: 0s; /* No delay on hover */
-}
-
-.container:hover .subHeader {
-    max-height: 500px; /* Expand the height smoothly */
-    padding: 10px; /* Add padding back on hover */
-}
-
-.container:not(:hover) .subHeader {
-    transition-delay: 2s; /* 2-second delay before collapsing */
-}
-
 .brgMenuContainer{
     display: flex;
     padding-left: 10px;
@@ -49,15 +27,9 @@
 .logo{
     font-family: Nunito Sans, sans-serif;
     font-style: normal;
-    font-weight: 700;
     font-size: 15px;
     display: block;
     width: 100%;
-    letter-spacing: 0;
-    padding-bottom: 3px;
-    text-decoration: none;
-    text-transform: none;
-    word-break: break-word;
 }
 
 .searchContainer {
@@ -68,6 +40,7 @@
     border-radius: 5px; /* Set a smaller, consistent value */
     background-color: azure;
     border: 2px solid #E8E8E8; /* Keep the dark gray border */
+    box-shadow: 0 2px 3px #8080801c;
 }
 
 .dropdownContainer{
@@ -133,8 +106,6 @@
     opacity: 1;  
   }
 
-
-
 .searchBtnContainer{
     height: 100%;
     width: 54px;
@@ -144,6 +115,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 3px 0 #8080801c;
 }
 
 .userContainer{
@@ -155,4 +127,68 @@
 
 .cartContainer{
     padding-left: 25px;
+}
+
+
+
+/*/////////// SUB HEADER //////////*/
+
+
+.subHeader {
+    display: flex;
+    align-items: center;
+    max-height: 0; /* Start with a collapsed height */
+    overflow: hidden; /* Hide any content when collapsed */
+    position: absolute;
+    width: 100vw;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 0 10px; /* Padding for the left and right, but not top/bottom initially */
+    transition: max-height 0.15s ease-in-out, padding 0.15s ease-in-out;
+    transition-delay: 0s; /* No delay on hover */
+}
+
+.container:hover .subHeader {
+    max-height: 500px; /* Expand the height smoothly */
+    padding: 10px; /* Add padding back on hover */
+    box-shadow: 0 3px 0 #8080801c;
+}
+
+/* .container:not(:hover) .subHeader {
+    transition-delay: 2s;
+    NOT WORKING FOR NOW
+    } */
+
+.navMenu{
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+
+.navMenuBtn{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.navMenuLabel{
+    display: flex;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0;
+
+
+    background: #e8e8e8;
 }

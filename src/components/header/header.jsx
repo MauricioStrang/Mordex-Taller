@@ -79,7 +79,7 @@ const Header =()=> {
 
         <div className={styles.subHeader}>
             <div className= {styles.navMenu}>
-                <select className={styles.navMenuLink} name="Tienda" id="cars">
+                <select className={styles.navMenuBtn} name="Tienda" id="cars">
                     <option value="volvo">Todos los prouctos</option>
                     <option value="volvo">Consolas</option>
                     <option value="volvo">Computadoras</option>
@@ -87,23 +87,25 @@ const Header =()=> {
                 </select>
                 <label className={styles.navMenuLabel}>Tienda</label>
 
+            </div>
 
-                <select className={styles.navMenuLink} name="Redes" id="cars">
+            <div className= {styles.navMenu}> 
+                <select className={styles.navMenuBtn} name="Redes" id="cars">
                     <option value="volvo">Facebook</option>
                     <option value="volvo">Instagram</option>
                     <option value="volvo">YoutubeEN</option>
                     <option value="saab">TwitchEN</option>
                 </select>
                 <label className={styles.navMenuLabel}>Redes</label>
+            </div>
 
-
-                <select className={styles.navMenuLink} name="Sobre-mi" id="cars">
+            <div className= {styles.navMenu}>
+                <select className={styles.navMenuBtn} name="Sobre-mi" id="cars">
                     <option value="volvo">FAQ</option>
                     <option value="volvo">Contactame</option>
                     <option value="volvo">¿Quién soy?</option>
                 </select>
                 <label className={styles.navMenuLabel}>Sobre mí</label>
-
             </div>
             
         </div>
