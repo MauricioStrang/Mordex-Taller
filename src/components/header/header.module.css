@@ -145,7 +145,7 @@
     left: 0;
     background-color: white;
     padding: 0 10px; /* Padding for the left and right, but not top/bottom initially */
-    transition: max-height 0.15s ease-in-out, padding 0.15s ease-in-out;
+    transition: max-height 0.25s ease-in-out, padding 0.25s ease-in-out;
     transition-delay: 0s; /* No delay on hover */
 }
 
@@ -154,11 +154,6 @@
     padding: 10px; /* Add padding back on hover */
     box-shadow: 0 3px 0 #8080801c;
 }
-
-/* .container:not(:hover) .subHeader {
-    transition-delay: 2s;
-    NOT WORKING FOR NOW
-    } */
 
 .navMenu{
     display: flex;
@@ -176,9 +171,9 @@
     opacity: 0;
 }
 
-.navMenuLabel{
+.navMenuLabel {
     display: flex;
-    width:100%;
+    width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -187,11 +182,12 @@
     font-weight: 700;
     font-size: 15px;
     letter-spacing: 0;
-
-
-    background: #e8e8e8;
 }
 
+.navMenuLabel:hover .navMenu{
+    border: 100px solid #000000;
+    box-shadow: 0 2px 3px #8080801c;
+}
 
 .subDropdownIconContainer{
     position: absolute;
