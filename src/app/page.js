@@ -4,12 +4,12 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className={styles.container}>
-        <div>
-            <button>About</button>
-        </div>
-
-        <div>
-          <button>Reparaciones</button>
+        <div className={styles.mordexBannerContainer}>
+          <Image
+          className={styles.mordexBanner} 
+          src="/mordexfix.png"
+          fill
+          />
         </div>
         
     </div>
