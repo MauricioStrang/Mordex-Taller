@@ -11,7 +11,7 @@ export default function Home() {
     <div className={styles.container}>
         <div className={styles.mordexBannerContainer}>
           <Image
-          src='/mordexfix.png'
+          src='/mordexfix1.png'
           alt=''
           fill
           className={styles.mordexBanner} 
@@ -20,7 +20,22 @@ export default function Home() {
 
         <div className={styles.mainContent}>
           <div className={styles.links}>
-              <h1>Hello World</h1>
+
+              <div className={styles.aboutContainer}>
+
+              </div>
+
+              <div className={styles.storeContainer}>
+                
+              </div>
+
+              <div className={styles.businessContainer}>
+                
+              </div>
+
+              <div className={styles.repairsContainer}>
+                
+              </div>
           </div>
         </div>
         
