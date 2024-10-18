@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./home.module.css";
 
 export const metadata = {
   description: "Home page",
@@ -21,45 +21,73 @@ export default function Home() {
         <div className={styles.mainContent}>
           <div className={styles.links}>
 
-              <div className={styles.aboutContainer}>
+              <div className={styles.linksContainer}>
                 <div className={styles.imgContainer}>
                   <Image 
                   src='/people-outline.svg'
                   fill
-                  className={styles.aboutImg}
+                  className={styles.img}
                   />
                 </div>
-                  
+                <span className={styles.linksTitle}>
+                  Sobre Nosotros
+                </span>
+
+                <p className={styles.linkSubTitle}>
+                  Conoce al equipo de MordexFix
+                </p>
               </div>
 
-              <div className={styles.storeContainer}>
+              <div className={styles.linksContainer}>
                 <div className={styles.imgContainer}>
                     <Image 
                     src='/store.svg'
                     fill
-                    className={styles.storeImg}
+                    className={styles.img}
                     />
                 </div>
+                <span className={styles.linksTitle}>
+                  Tienda
+                </span>
+
+                <p className={styles.linkSubTitle}>
+                  Productos en Venta
+                </p>
               </div>
 
-              <div className={styles.businessContainer}>
+              <div className={styles.linksContainer}>
                 <div className={styles.imgContainer}>
                       <Image 
                       src='/business.svg'
                       fill
-                      className={styles.businessImg}
+                      className={styles.img}
                       />
                 </div>
+                <span className={styles.linksTitle}>
+                  Negocio
+                </span>
+
+                <p className={styles.linkSubTitle}>
+                  Contactanos
+                </p>
               </div>
 
-              <div className={styles.repairsContainer}>
+              <div className={styles.linksContainer}>
                 <div className={styles.imgContainer}>
                       <Image 
                       src='/repairs.svg'
                       fill
-                      className={styles.repairsImg}
+                      className={styles.img}
                       />
                 </div>
+                <span className={styles.linksTitle}>
+                  Reparaciones
+                </span>
+
+                <p className={styles.linkSubTitle}>
+                  Ver Reparaciones
+                </p>
+
               </div>
           </div>
         </div>

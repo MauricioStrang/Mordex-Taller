@@ -1,9 +1,37 @@
 :root {
-  --bg: #0d0c22;
-  --bgSoft: #2d2b42;
-  --text: white;
-  --textsoft: #e5e5e5;
-  --btn: #3673fd;
+  --color-body-text: #1d1d1d;
+  --color-body: #ffffff;
+  --color-bg: #ffffff;
+
+  --font-size-heading-large: 2.125rem;
+  --font-size-heading-medium: 1.875rem;
+  --font-size-heading-1: 1.75rem;
+  --font-size-heading-2: 1.625rem;
+  --font-size-heading-3: 1.5rem;
+  --font-size-heading-4: 1.25rem;
+  --font-size-heading-5: 1.125rem;
+  --font-size-heading-6: 1.125rem;
+  --font-size-body-larger: 1.375rem;
+  --font-size-body-large: 1.25rem;
+  --font-size-body-medium: 1.125rem;
+  --font-size-body: 1rem;
+  --font-size-body-small: .9375rem;
+  --font-size-body-smaller: .875rem;
+  --font-size-body-smallest: .8125rem;
+  --font-size-body-tiny: .75rem;
+  --font-size-button-small: .875rem;
+  --font-size-button-medium: 1rem;
+  --font-size-button-large: 1.125rem;
+  --font-size-button-x-large: 1.3125rem;
+  --font-size-menu-large: 1.0625rem;
+  --font-size-menu: 1rem;
+  --font-size-input: 1rem;
+  --font-size-section-heading: 1.25rem;
+  --font-size-menu-body-medium: 1.125rem;
+  --font-size-menu-body-small: .9375rem;
+  --font-size-heading-body-small: .9375rem;
+  --font-size-heading-body-smaller: .875rem;
+  --font-size-heading-slideshow: 1.9921875rem;
 }
 
 *{
@@ -17,8 +45,19 @@ a {
   text-decoration: none;
 }
 
+body{
+  font-family: var(--font-nunito-sans), sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-body);
+  width: 100%;
+  color: #1d1d1d;
+}
+
 html,
 body {
+  font-family: var(--font-nunito-sans), sans-serif;
+  background-color: #fff;
   max-width: 100vw;
   overflow-x: hidden;
 }
