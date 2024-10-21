@@ -22,6 +22,7 @@ export default function Home() {
           <div className={styles.links}>
 
               <div className={styles.linksContainer}>
+                <a class="linksClickable" href="/about"></a>
                 <div className={styles.imgContainer}>
                   <Image 
                   src='/people-outline.svg'
@@ -34,11 +35,12 @@ export default function Home() {
                 </span>
 
                 <p className={styles.linkSubTitle}>
-                  Conoce al equipo de MordexFix
+                  Conoce al Equipo
                 </p>
               </div>
 
               <div className={styles.linksContainer}>
+                <a class="linksClickable" href="/store"></a>
                 <div className={styles.imgContainer}>
                     <Image 
                     src='/store.svg'
@@ -56,6 +58,7 @@ export default function Home() {
               </div>
 
               <div className={styles.linksContainer}>
+                <a class="linksClickable" href="/contact"></a>
                 <div className={styles.imgContainer}>
                       <Image 
                       src='/business.svg'
@@ -73,6 +76,7 @@ export default function Home() {
               </div>
 
               <div className={styles.linksContainer}>
+                <a class="linksClickable" href="/repairs"></a>
                 <div className={styles.imgContainer}>
                       <Image 
                       src='/repairs.svg'
