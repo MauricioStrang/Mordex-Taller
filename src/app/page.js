@@ -22,7 +22,7 @@ export default function Home() {
           <div className={styles.links}>
 
               <div className={styles.linksContainer}>
-                <a class="linksClickable" href="/about"></a>
+                <a className={styles.linksClickable} href="/about"></a>
                 <div className={styles.imgContainer}>
                   <Image 
                   src='/people-outline.svg'
@@ -40,7 +40,7 @@ export default function Home() {
               </div>
 
               <div className={styles.linksContainer}>
-                <a class="linksClickable" href="/store"></a>
+              <a className={styles.linksClickable} href="/store"></a>
                 <div className={styles.imgContainer}>
                     <Image 
                     src='/store.svg'
@@ -58,7 +58,7 @@ export default function Home() {
               </div>
 
               <div className={styles.linksContainer}>
-                <a class="linksClickable" href="/contact"></a>
+              <a className={styles.linksClickable} href="/contact"></a>
                 <div className={styles.imgContainer}>
                       <Image 
                       src='/business.svg'
@@ -76,7 +76,7 @@ export default function Home() {
               </div>
 
               <div className={styles.linksContainer}>
-                <a class="linksClickable" href="/repairs"></a>
+              <a className={styles.linksClickable} href="/repairs"></a>
                 <div className={styles.imgContainer}>
                       <Image 
                       src='/repairs.svg'
