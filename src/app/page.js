@@ -58,7 +58,7 @@ export default function Home() {
               </div>
 
               <div className={styles.linksContainer}>
-              <a className={styles.linksClickable} href="/contact"></a>
+                <a className={styles.linksClickable} href="/contact"></a>
                 <div className={styles.imgContainer}>
                       <Image 
                       src='/business.svg'
@@ -75,8 +75,8 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className={styles.linksContainer}>
-              <a className={styles.linksClickable} href="/repairs"></a>
+                <div className={styles.linksContainer}>
+                <a className={styles.linksClickable} href="/repairs"></a>
                 <div className={styles.imgContainer}>
                       <Image 
                       src='/repairs.svg'
@@ -94,6 +94,19 @@ export default function Home() {
 
               </div>
           </div>
+          <div className={styles.blogPostsContainer}>
+
+                <div className={styles.blogPost}>
+                  <div className={styles.blogImgContainer}>
+                    <a href="/blog/ps5">
+                      <Image src={'/ps5.png'} fill className={styles.blogImg}/>
+                    </a>
+                  </div>
+                  <a className={styles.blogTitle}href="/blog/ps5">PS5 Optical Disc Drive Problems</a>
+                  <div className={styles.blogText}>There are several problems that can occur with the disc drive on a PS5, including your disc not reading correctly or not spinning or working in general. Here we will tackle common issues and outline DIY fixes you can try at home.</div>
+                </div>
+                <a href="blog/ps5">Read Now</a>
+              </div>
         </div>
         
     </div>
