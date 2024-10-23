@@ -94,6 +94,8 @@ export default function Home() {
 
               </div>
           </div>
+
+          <h2 className={styles.homeSectionTitle}> Artículos de Reparaciones DIY</h2>
           <div className={styles.blogPostsContainer}>
 
                 <div className={styles.blogPost}>
@@ -102,13 +104,37 @@ export default function Home() {
                       <Image src={'/ps5.png'} fill className={styles.blogImg}/>
                     </a>
                   </div>
-                  <a className={styles.blogTitle}href="/blog/ps5">PS5 Optical Disc Drive Problems</a>
+                  <h2 className={styles.blogTitle}><a href="/blog/ps5">PS5 Optical Disc Drive Problems</a></h2>
                   <div className={styles.blogText}>There are several problems that can occur with the disc drive on a PS5, including your disc not reading correctly or not spinning or working in general. Here we will tackle common issues and outline DIY fixes you can try at home.</div>
+                  <a href="blog/ps5">Read Now</a>
                 </div>
-                <a href="blog/ps5">Read Now</a>
-              </div>
-        </div>
-        
+
+
+                <div className={styles.blogPost}>
+                  <div className={styles.blogImgContainer}>
+                    <a href="/blog/soldering">
+                      <Image src={'/soldering.png'} fill className={styles.blogImg}/>
+                    </a>
+                  </div>
+                  <h2 className={styles.blogTitle}><a href="/blog/ps5">How To Solder On Fan and Power Supply Connectors</a></h2>
+                  <div className={styles.blogText}>If you've accidentally broken the fan or power supply connector off the motherboard of your game console this is the post for you. Well get your started with your repair with tool recommendations and an explanation of each step of the process.</div>
+                  <a href="blog/soldering">Read Now</a>
+                </div>
+
+
+                <div className={styles.blogPost}>
+                  <div className={styles.blogImgContainer}>
+                    <a href="/blog/retrogames">
+                      <Image src={'/retrogames.png'} fill className={styles.blogImg}/>
+                    </a>
+                  </div>
+                  <h2 className={styles.blogTitle}><a href="/blog/ps5">How to Clean Retro Game Cartridges</a></h2>
+                  <div className={styles.blogText}>Most retro game cartridges are between 20-40 years old, and you may have noticed that they don’t work the way they used to anymore. Luckily, a simple cleaning is often the only thing needed to fix them.</div>
+                  <a href="blog/ps5">Read Now</a>
+                </div>
+                
+            </div>
+        </div>  
     </div>
   );
 }
