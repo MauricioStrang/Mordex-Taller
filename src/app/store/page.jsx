@@ -4,7 +4,8 @@ const StorePage =()=> {
   return (
 
     <div className={styles.container}>
-        <h1>STORE PAGE no timexd</h1>
+        <h1>xd</h1>
+        <div></div>
     </div>
   );
 }

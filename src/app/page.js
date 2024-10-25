@@ -130,7 +130,7 @@ export default function Home() {
                   </div>
                   <h2 className={styles.blogTitle}><a href="/blog/ps5">How to Clean Retro Game Cartridges</a></h2>
                   <div className={styles.blogText}>Most retro game cartridges are between 20-40 years old, and you may have noticed that they don’t work the way they used to anymore. Luckily, a simple cleaning is often the only thing needed to fix them.</div>
-                  <a href="blog/ps5">Read Now</a>
+                  <a href="blog/retrogames">Read Now</a>
                 </div>
                 
             </div>
