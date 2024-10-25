@@ -58,9 +58,9 @@
 .linksTitle{
   font-size: var(--font-size-heading-5);
   font-family: Montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: 0em;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0em;
 }
 
 .linksSubTitle{
@@ -81,6 +81,7 @@
   }
 
 .blogPostsContainer{
+  margin-bottom: 25px;
   display: flex;
   justify-content: space-between;
   margin-left: 280px;
@@ -91,7 +92,7 @@
   border: 1px solid rgba(128, 128, 128, .16);
   box-shadow: 0 1px 4px #8080801c;
   width: 435px;
-  height: 525px;
+  height: 550px;
   text-align: center;
 }
 
@@ -117,6 +118,23 @@
 
 .blogText{
   text-align: center;
-  margin-left: 17px;
-  margin-right: 17px;
+  margin: 0 auto;
+  max-width: 95%;
+  line-height: 1.5;
+  padding: 0 10px;
+  margin-bottom: 1rem;
+}
+
+
+.arrowRedirect{
+  line-height: 1;
+  color: #e87714;
+}
+
+.seeMore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e87714;
+  margin-bottom: 50px;
 }

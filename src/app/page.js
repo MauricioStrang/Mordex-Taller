@@ -95,7 +95,7 @@ export default function Home() {
               </div>
           </div>
 
-          <h2 className={styles.homeSectionTitle}> Artículos de Reparaciones DIY</h2>
+          <h2 className={styles.homeSectionTitle}> Artículos de Reparaciones</h2>
           <div className={styles.blogPostsContainer}>
 
                 <div className={styles.blogPost}>
@@ -104,9 +104,9 @@ export default function Home() {
                       <Image src={'/ps5.png'} fill className={styles.blogImg}/>
                     </a>
                   </div>
-                  <h2 className={styles.blogTitle}><a href="/blog/ps5">PS5 Optical Disc Drive Problems</a></h2>
-                  <div className={styles.blogText}>There are several problems that can occur with the disc drive on a PS5, including your disc not reading correctly or not spinning or working in general. Here we will tackle common issues and outline DIY fixes you can try at home.</div>
-                  <a href="blog/ps5">Read Now</a>
+                  <h2 className={styles.blogTitle}><a href="/blog/ps5">Problemas con la Unidad de Disco Óptico de la PS5</a></h2>
+                  <div className={styles.blogText}>Existen varios problemas que pueden ocurrir con la unidad de disco de una PS5, incluyendo que el disco no se lea correctamente, que no gire, o que simplemente no funcione. Aquí abordaremos problemas comunes y te mostraremos soluciones que puedes intentar en casa.</div>
+                  <a className={styles.arrowRedirect} href="blog/ps5">Leer más  {'>'}</a>
                 </div>
 
 
@@ -116,9 +116,9 @@ export default function Home() {
                       <Image src={'/soldering.png'} fill className={styles.blogImg}/>
                     </a>
                   </div>
-                  <h2 className={styles.blogTitle}><a href="/blog/ps5">How To Solder On Fan and Power Supply Connectors</a></h2>
-                  <div className={styles.blogText}>If you've accidentally broken the fan or power supply connector off the motherboard of your game console this is the post for you. Well get your started with your repair with tool recommendations and an explanation of each step of the process.</div>
-                  <a href="blog/soldering">Read Now</a>
+                  <h2 className={styles.blogTitle}><a href="/blog/ps5">Cómo Soldar Conectores de Ventilador y Fuente de Alimentación</a></h2>
+                  <div className={styles.blogText}>Si accidentalmente has roto el conector del ventilador o de la fuente de alimentación en la placa base de tu consola de juegos, esta publicación es para ti. Te ayudaremos a comenzar tu reparación con recomendaciones de herramientas y una explicación de cada paso del proceso.</div>
+                  <a className={styles.arrowRedirect} href="blog/soldering">Leer más  {'>'}</a>
                 </div>
 
 
@@ -128,13 +128,15 @@ export default function Home() {
                       <Image src={'/retrogames.png'} fill className={styles.blogImg}/>
                     </a>
                   </div>
-                  <h2 className={styles.blogTitle}><a href="/blog/ps5">How to Clean Retro Game Cartridges</a></h2>
-                  <div className={styles.blogText}>Most retro game cartridges are between 20-40 years old, and you may have noticed that they don’t work the way they used to anymore. Luckily, a simple cleaning is often the only thing needed to fix them.</div>
-                  <a href="blog/retrogames">Read Now</a>
-                </div>
-                
+                  <h2 className={styles.blogTitle}><a href="/blog/ps5">Cómo Limpiar Cartuchos de Juegos Retro</a></h2>
+                  <div className={styles.blogText}>La mayoría de los cartuchos de juegos retro tienen entre 20 y 40 años, y es posible que hayas notado que ya no funcionan como antes. Afortunadamente, una simple limpieza suele ser lo único necesario para arreglarlos</div>
+                  <a className={styles.arrowRedirect} href="blog/retrogames">Leer más  {'>'}</a>
+                </div>  
             </div>
         </div>  
+        <div className={styles.seeMore}>
+          <p>Explorar más {'>'}</p>
+        </div>       
     </div>
   );
 }
